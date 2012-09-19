@@ -43,7 +43,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rcov>, ["~> 0.9.8"])
       s.add_development_dependency(%q<rspec>, ["~> 2.11.0"])
       s.add_runtime_dependency(%q<eventmachine>, [">= 0"])
-      s.add_runtime_dependency(%q<heroku>, ["~> 1.9"])
+      s.add_runtime_dependency(%q<heroku>, ["~> 2.31.3"])
       s.add_runtime_dependency(%q<rack>, ["~> 1.0"])
     else
       s.add_dependency(%q<rack-test>, ["~> 0.5.4"])
@@ -51,7 +51,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rcov>, ["~> 0.9.8"])
       s.add_dependency(%q<rspec>, ["~> 2.11.0"])
       s.add_dependency(%q<eventmachine>, [">= 0"])
-      s.add_dependency(%q<heroku>, ["~> 1.9"])
+      s.add_dependency(%q<heroku>, ["~> 2.31.3"])
       s.add_dependency(%q<rack>, ["~> 1.0"])
     end
   else
@@ -60,7 +60,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rcov>, ["~> 0.9.8"])
     s.add_dependency(%q<rspec>, ["~> 2.11.0"])
     s.add_dependency(%q<eventmachine>, [">= 0"])
-    s.add_dependency(%q<heroku>, ["~> 1.9"])
+    s.add_dependency(%q<heroku>, ["~> 2.31.3"])
     s.add_dependency(%q<rack>, ["~> 1.0"])
   end
 end
